@@ -1,0 +1,6 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjk5OTk5OTk5OTksInN1YiI6InRlc3QiLCJzY29wZSI6InN1cHBseS5kb21haW4ifQ.fake",
+  "expires_in": 86400,
+  "token_type": "Bearer",
+  "scope": "supply.domain"
+}

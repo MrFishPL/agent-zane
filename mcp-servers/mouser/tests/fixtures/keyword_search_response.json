@@ -1,0 +1,111 @@
+{
+  "Errors": [],
+  "SearchResults": {
+    "NumberOfResult": 3,
+    "Parts": [
+      {
+        "Availability": "4500 In Stock",
+        "DataSheetUrl": "https://www.mouser.com/datasheet/2/308/LM3900-D-1586.pdf",
+        "Description": "Operational Amplifiers - Op Amps Quad Norton Op Amp",
+        "FactoryStock": "0",
+        "ImagePath": "https://www.mouser.com/images/texasinstruments/images/LM3900N_NOPB_t.jpg",
+        "Category": "Operational Amplifiers - Op Amps",
+        "LeadTime": "56 days",
+        "LifeCycle": "",
+        "Manufacturer": "Texas Instruments",
+        "ManufacturerPartNumber": "LM3900N/NOPB",
+        "MouserPartNumber": "595-LM3900N/NOPB",
+        "ProductDetailUrl": "https://www.mouser.com/ProductDetail/Texas-Instruments/LM3900N-NOPB?qs=example",
+        "ROHSStatus": "RoHS Compliant",
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Tube"
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "25"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "$0.85",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 10,
+            "Price": "$0.72",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 100,
+            "Price": "$0.54",
+            "Currency": "USD"
+          }
+        ],
+        "AlternatePackagings": null,
+        "ProductCompliance": []
+      },
+      {
+        "Availability": "12,500 In Stock",
+        "DataSheetUrl": "",
+        "Description": "Operational Amplifiers - Op Amps Quad General Purpose Op Amp",
+        "FactoryStock": "500",
+        "ImagePath": "",
+        "Category": "Operational Amplifiers - Op Amps",
+        "LeadTime": "42 days",
+        "LifeCycle": "Active",
+        "Manufacturer": "Texas Instruments",
+        "ManufacturerPartNumber": "LM324N",
+        "MouserPartNumber": "595-LM324N",
+        "ProductDetailUrl": "https://www.mouser.com/ProductDetail/Texas-Instruments/LM324N?qs=example2",
+        "ROHSStatus": "RoHS Compliant",
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Tube"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "$0.45",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 25,
+            "Price": "$0.38",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 100,
+            "Price": "$0.29",
+            "Currency": "USD"
+          }
+        ],
+        "AlternatePackagings": null,
+        "ProductCompliance": []
+      },
+      {
+        "Availability": "0",
+        "DataSheetUrl": "",
+        "Description": "Operational Amplifiers - Op Amps Quad Low Power Op Amp",
+        "FactoryStock": "0",
+        "ImagePath": "",
+        "Category": "Operational Amplifiers - Op Amps",
+        "LeadTime": "120 days",
+        "LifeCycle": "Obsolete",
+        "Manufacturer": "National Semiconductor",
+        "ManufacturerPartNumber": "LM3900N",
+        "MouserPartNumber": "926-LM3900N",
+        "ProductDetailUrl": "https://www.mouser.com/ProductDetail/National-Semiconductor/LM3900N?qs=example3",
+        "ROHSStatus": "",
+        "ProductAttributes": [],
+        "PriceBreaks": [],
+        "AlternatePackagings": null,
+        "ProductCompliance": []
+      }
+    ]
+  }
+}

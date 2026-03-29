@@ -1,0 +1,25 @@
+# Personal overrides (not committed)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+**/venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# MCP server runtime data
+**/.parts_counter.json
+
+# Temp files (rendered PDFs, crop-zoom images)
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db

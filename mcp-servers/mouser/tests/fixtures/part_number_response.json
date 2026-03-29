@@ -1,0 +1,52 @@
+{
+  "Errors": [],
+  "SearchResults": {
+    "NumberOfResult": 1,
+    "Parts": [
+      {
+        "Availability": "8,234 In Stock",
+        "DataSheetUrl": "https://www.mouser.com/datasheet/2/405/lm7805-1587.pdf",
+        "Description": "Linear Voltage Regulators 1.5A Positive Voltage Regulator",
+        "FactoryStock": "0",
+        "ImagePath": "https://www.mouser.com/images/fairchild/images/LM7805CT_t.jpg",
+        "Category": "Linear Voltage Regulators",
+        "LeadTime": "28 days",
+        "LifeCycle": "",
+        "Manufacturer": "Texas Instruments",
+        "ManufacturerPartNumber": "LM7805CT/NOPB",
+        "MouserPartNumber": "595-LM7805CT/NOPB",
+        "ProductDetailUrl": "https://www.mouser.com/ProductDetail/Texas-Instruments/LM7805CT-NOPB?qs=example",
+        "ROHSStatus": "RoHS Compliant",
+        "ProductAttributes": [
+          {
+            "AttributeName": "Packaging",
+            "AttributeValue": "Bulk"
+          },
+          {
+            "AttributeName": "Standard Pack Qty",
+            "AttributeValue": "50"
+          }
+        ],
+        "PriceBreaks": [
+          {
+            "Quantity": 1,
+            "Price": "$0.59",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 10,
+            "Price": "$0.49",
+            "Currency": "USD"
+          },
+          {
+            "Quantity": 100,
+            "Price": "$0.39",
+            "Currency": "USD"
+          }
+        ],
+        "AlternatePackagings": null,
+        "ProductCompliance": []
+      }
+    ]
+  }
+}

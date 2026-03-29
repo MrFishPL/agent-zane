@@ -1,0 +1,10 @@
+{
+  "errors": [
+    {
+      "message": "AuthExpiredToken: The access token has expired.",
+      "extensions": {
+        "code": "AuthExpiredToken"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "data": {
+    "supSearch": {
+      "hits": 42,
+      "results": [
+        {
+          "part": {
+            "mpn": "CRCW06033R00FKEA",
+            "name": "CRCW06033R00FKEA",
+            "shortDescription": "Thick Film Resistor 3ohm 1% 0603",
+            "octopartUrl": "https://octopart.com/crcw06033r00fkea-vishay-123456",
+            "totalAvail": 200000,
+            "manufacturer": {
+              "name": "Vishay",
+              "homepageUrl": "https://www.vishay.com"
+            },
+            "category": {
+              "id": "4100",
+              "name": "Resistors",
+              "path": "/electronic-parts/passives/resistors"
+            },
+            "medianPrice1000": {
+              "quantity": 1000,
+              "price": 0.005,
+              "currency": "USD",
+              "convertedPrice": 0.005,
+              "convertedCurrency": "USD"
+            },
+            "bestDatasheet": {
+              "url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+            },
+            "specs": [
+              {
+                "attribute": {"name": "Lifecycle Status", "shortname": "lifecyclestatus"},
+                "displayValue": "Production"
+              },
+              {
+                "attribute": {"name": "Resistance", "shortname": "resistance"},
+                "displayValue": "3 Ohm"
+              }
+            ],
+            "sellers": [
+              {
+                "company": {"name": "DigiKey"},
+                "offers": [
+                  {
+                    "sku": "541-CRCW06033R00FKEACT-ND",
+                    "inventoryLevel": 150000,
+                    "moq": 1,
+                    "orderMultiple": 1,
+                    "factoryLeadDays": null,
+                    "packaging": "Cut Tape",
+                    "prices": [
+                      {"quantity": 1, "price": 0.10, "currency": "USD", "convertedPrice": 0.10, "convertedCurrency": "USD"},
+                      {"quantity": 100, "price": 0.01, "currency": "USD", "convertedPrice": 0.01, "convertedCurrency": "USD"}
+                    ],
+                    "clickUrl": "https://www.digikey.com/en/products/detail/vishay/CRCW06033R00FKEA",
+                    "updated": "2026-03-28T10:00:00Z"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
