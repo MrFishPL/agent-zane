@@ -1,0 +1,52 @@
+{
+  "data": {
+    "supMultiMatch": [
+      {
+        "hits": 1,
+        "parts": [
+          {
+            "mpn": "LM7805CT",
+            "name": "LM7805CT",
+            "shortDescription": "Linear Voltage Regulator, 5V, 1.5A, TO-220",
+            "octopartUrl": "https://octopart.com/lm7805ct-527820",
+            "totalAvail": 50000,
+            "manufacturer": {
+              "name": "Texas Instruments",
+              "homepageUrl": "https://www.ti.com"
+            },
+            "category": {"id": "4215", "name": "Voltage Regulators", "path": "/electronic-parts/semiconductors/voltage-regulators"},
+            "medianPrice1000": {"quantity": 1000, "price": 0.35, "currency": "USD", "convertedPrice": 0.35, "convertedCurrency": "USD"},
+            "bestDatasheet": {"url": "https://www.ti.com/lit/ds/symlink/lm7805.pdf"},
+            "specs": [
+              {"attribute": {"name": "Lifecycle Status", "shortname": "lifecyclestatus"}, "displayValue": "Production"}
+            ],
+            "sellers": []
+          }
+        ]
+      },
+      {
+        "hits": 1,
+        "parts": [
+          {
+            "mpn": "LM317T",
+            "name": "LM317T",
+            "shortDescription": "Adjustable Voltage Regulator, 1.2-37V, 1.5A, TO-220",
+            "octopartUrl": "https://octopart.com/lm317t-527821",
+            "totalAvail": 30000,
+            "manufacturer": {
+              "name": "Texas Instruments",
+              "homepageUrl": "https://www.ti.com"
+            },
+            "category": {"id": "4215", "name": "Voltage Regulators", "path": "/electronic-parts/semiconductors/voltage-regulators"},
+            "medianPrice1000": {"quantity": 1000, "price": 0.28, "currency": "USD", "convertedPrice": 0.28, "convertedCurrency": "USD"},
+            "bestDatasheet": {"url": "https://www.ti.com/lit/ds/symlink/lm317.pdf"},
+            "specs": [
+              {"attribute": {"name": "Lifecycle Status", "shortname": "lifecyclestatus"}, "displayValue": "Production"}
+            ],
+            "sellers": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "data": {
+    "supSearchMpn": {
+      "hits": 1,
+      "results": [
+        {
+          "part": {
+            "mpn": "LM7805CT",
+            "name": "LM7805CT",
+            "shortDescription": "Linear Voltage Regulator, 5V, 1.5A, TO-220",
+            "octopartUrl": "https://octopart.com/lm7805ct-texas+instruments-527820",
+            "totalAvail": 50000,
+            "manufacturer": {
+              "name": "Texas Instruments",
+              "homepageUrl": "https://www.ti.com"
+            },
+            "category": {
+              "id": "4215",
+              "name": "Voltage Regulators",
+              "path": "/electronic-parts/semiconductors/voltage-regulators"
+            },
+            "medianPrice1000": {
+              "quantity": 1000,
+              "price": 0.35,
+              "currency": "USD",
+              "convertedPrice": 0.35,
+              "convertedCurrency": "USD"
+            },
+            "bestDatasheet": {
+              "url": "https://www.ti.com/lit/ds/symlink/lm7805.pdf"
+            },
+            "specs": [
+              {
+                "attribute": {"name": "Lifecycle Status", "shortname": "lifecyclestatus"},
+                "displayValue": "Production"
+              },
+              {
+                "attribute": {"name": "Output Voltage", "shortname": "outputvoltage"},
+                "displayValue": "5V"
+              },
+              {
+                "attribute": {"name": "Output Current", "shortname": "outputcurrent"},
+                "displayValue": "1.5A"
+              },
+              {
+                "attribute": {"name": "Package", "shortname": "case_package"},
+                "displayValue": "TO-220"
+              }
+            ],
+            "sellers": [
+              {
+                "company": {"name": "DigiKey"},
+                "offers": [
+                  {
+                    "sku": "LM7805CT-ND",
+                    "inventoryLevel": 15000,
+                    "moq": 1,
+                    "orderMultiple": 1,
+                    "factoryLeadDays": null,
+                    "packaging": "Cut Tape",
+                    "prices": [
+                      {"quantity": 1, "price": 0.59, "currency": "USD", "convertedPrice": 0.59, "convertedCurrency": "USD"},
+                      {"quantity": 10, "price": 0.49, "currency": "USD", "convertedPrice": 0.49, "convertedCurrency": "USD"},
+                      {"quantity": 100, "price": 0.39, "currency": "USD", "convertedPrice": 0.39, "convertedCurrency": "USD"}
+                    ],
+                    "clickUrl": "https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT/527820",
+                    "updated": "2026-03-28T10:00:00Z"
+                  }
+                ]
+              },
+              {
+                "company": {"name": "Mouser"},
+                "offers": [
+                  {
+                    "sku": "595-LM7805CT",
+                    "inventoryLevel": 8500,
+                    "moq": 1,
+                    "orderMultiple": 1,
+                    "factoryLeadDays": null,
+                    "packaging": "Bulk",
+                    "prices": [
+                      {"quantity": 1, "price": 0.55, "currency": "USD", "convertedPrice": 0.55, "convertedCurrency": "USD"},
+                      {"quantity": 10, "price": 0.47, "currency": "USD", "convertedPrice": 0.47, "convertedCurrency": "USD"}
+                    ],
+                    "clickUrl": "https://www.mouser.com/ProductDetail/Texas-Instruments/LM7805CT",
+                    "updated": "2026-03-28T10:00:00Z"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

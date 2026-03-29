@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "octopart": {
+      "command": "mcp-servers/octopart/venv/bin/python",
+      "args": ["mcp-servers/octopart/server.py"],
+      "cwd": "mcp-servers/octopart"
+    },
+    "mouser": {
+      "command": "mcp-servers/mouser/venv/bin/python",
+      "args": ["mcp-servers/mouser/server.py"],
+      "cwd": "mcp-servers/mouser"
+    }
+  }
+}
