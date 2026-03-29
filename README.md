@@ -14,35 +14,30 @@ No invented part numbers. Every MPN comes from a real API query or verified web 
 ## Quick start
 
 ```bash
-# Clone
 git clone https://github.com/MrFishPL/agent-zane.git
 cd agent-zane
-
-# Set up environment
-cp .env.example .env
-# Edit .env with your API keys
-
-# Install dependencies
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-# Install MCP server dependencies
-cd mcp-servers/mouser && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && deactivate && cd ../..
-cd mcp-servers/octopart && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt && deactivate && cd ../..
-
-# Run with Claude Code
 claude
 ```
 
+Then run:
+
+```
+/install
+```
+
+This creates all virtual environments, installs dependencies, checks your API keys, and runs tests. It will tell you exactly what's missing.
+
 ## How to use
 
-Everything starts with `/ask`. Attach a file or type a description — the agent handles the rest.
-
-After getting results, use `/feedback` to teach the agent your preferences (it saves them as lessons for future sessions).
+| Command | What it does |
+|---------|-------------|
+| `/install` | Set up the environment (run once after cloning) |
+| `/ask` | Start a sourcing request (text, image, or PDF) |
+| `/feedback` | Teach the agent your preferences for future sessions |
 
 ## Example prompts
 
-### Test 1: Audio mixer from academic paper
+### 1. Audio mixer — production run from academic paper
 
 Download the PDF: [4-Channel Audio Mixer](https://www.scholarsresearchlibrary.com/articles/design-and-simulation-of-four-channel-audio-mixer.pdf)
 
@@ -56,31 +51,38 @@ Inputs and output on 6.35mm PCB-mount jacks.
 All through-hole. Looking for the cheapest option.
 ```
 
-This tests whether the agent can:
-- Parse a multi-page academic PDF and extract schematics
-- Handle specific mechanical requirements (D-shaft, dust-sealed, panel-mount)
-- Source through-hole components at production volume pricing
+Tests: multi-page academic PDF parsing, specific mechanical requirements (D-shaft, dust-sealed, panel-mount), through-hole sourcing at production volume.
 
-### Test 2: Regulated power supply from a kit manual
+### 2. Lab power supply — specific figure from a datasheet
 
-Download the PDF: [LM317 Kit Instructions](http://myosuploads3.banggood.com/products/20220111/20220111234413LM317.pdf)
+Download the PDF: [LM317 Datasheet (TI)](https://www.ti.com/lit/ds/symlink/lm317.pdf)
 
 ```
-/ask [attach LM317 PDF]
+/ask [attach LM317 datasheet PDF]
 
-I'm building this regulated power supply, single unit
-for my workshop. I already have the transformer and
-bridge rectifier — don't source those. I want quality
-components, not the cheapest. I'll order everything
+I have the LM317 datasheet here. I'm interested in the
+schematic from Figure 22 — "Laboratory Power Supply".
+Building a single unit for my workshop, I want quality
+components. I already have the transformer and bridge
+rectifier — don't source those. I'll order everything
 from one distributor.
 ```
 
-This tests whether the agent can:
-- Read a simple single-page schematic from a kit manual
-- Respect exclusions ("already have transformer and bridge rectifier")
-- Understand "single unit" means volume = 1
-- Consolidate to one distributor when asked
-- Prioritize quality over price when instructed
+Tests: finding a specific figure in a multi-page datasheet, skipping irrelevant pages (specs, package drawings), understanding volume = 1, respecting component exclusions, single-distributor consolidation, quality over price.
+
+### 3. Simple text request — no schematic
+
+```
+/ask
+
+I need a 5V 2A buck converter for a Raspberry Pi project.
+Input is 12V from a wall adapter. I want something easy
+to solder by hand — no QFN or tiny packages. Just the
+converter IC and its support components (inductor, caps,
+diode, resistors). 50 units.
+```
+
+Tests: text-only input (no PDF/image), designing a BOM from a description, package constraints (hand-solderable), complete support component list, mid-volume pricing.
 
 ## Architecture
 
@@ -103,7 +105,7 @@ MCP servers in `mcp-servers/` provide the API integrations:
 
 ## API keys
 
-Copy `.env.example` to `.env` and fill in your keys:
+Copy `.env.example` to `.env` and fill in your keys (or run `/install` and it will guide you):
 
 | Variable | Source |
 |----------|--------|
